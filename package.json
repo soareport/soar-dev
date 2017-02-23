@@ -2,8 +2,8 @@
   "name": "soar-dev",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
-  "keywords": [],
+  "description": "SOA Report: a Sails application",
+  "keywords": ["soareport"],
   "dependencies": {
     "ejs": "2.3.4",
     "grunt": "1.0.1",
@@ -25,13 +25,18 @@
   },
   "scripts": {
     "debug": "node debug app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/anonymous node/sails user/soar-dev.git"
+    "url": "git+https://github.com/soareport/soar-dev.git"
   },
-  "author": "anonymous node/sails user",
-  "license": ""
+  "author": "SOA Report",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/soareport/soar-dev/issues"
+  },
+  "homepage": "https://github.com/soareport/soar-dev#readme"
 }
